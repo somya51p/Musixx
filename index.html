@@ -32,8 +32,8 @@
 <body>
     <main>
         <div>
-            <a onclick="playsong()">
-                <img src="https://images.pexels.com/photos/1482476/pexels-photo-1482476.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940">
+            <a onclick = "playsong()">
+                <img src="https://international-adviser.com/wp-content/uploads/sites/3/2020/05/Pause-play-300x192.jpg">
 
             </a>
         </div>
@@ -42,7 +42,7 @@
         var mysong = new Audio();
         mysong.src = 'Usher_Ft_Pitbull_Dj_Got_Us_Fallin_In_Love.mp3';
         flag = 0;
-        const playsong = () =>{
+        const playsong = () => {
             if(flag==0) {
                 mysong.play();
                 flag = 1;
